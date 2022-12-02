@@ -10,21 +10,9 @@ body{
     grid-template-columns: 1fr;
     place-items: center;
     margin:  auto ;
-    z-index: -20;
-    position: absolute;
 }
 .menu-icon{
     display: none;
-}
-.mobile-menu {
-    display: none;
-    z-index: 20;
-    background-color:hsl(36, 100%, 99%) ;
-    background-color: red;  
-}
-.mobile-menu a {
-    color: black;
-    font-size: 2rem;
 }
 .hero-img-mobile {
     display: none;
@@ -167,17 +155,8 @@ article p {
 .attribution a {
 color: hsl(228, 45%, 44%);
 }
-.mobile-menu {
+#mobile-menu {
     display: none;
-    position: fixed;
-    z-index: 30; 
-    right: 0;
-    top: 0;
-   
-    width: 100vw;
-    height: 100vh;
-    padding: 2em 0em 2em 2em;
-    background-color: hsl(36, 100%, 99%);
 }
 @media screen and (max-width: 600px){
     .heading nav {
@@ -210,6 +189,21 @@ color: hsl(228, 45%, 44%);
         padding-bottom: 10em;
         font-weight: 400;
         font-size: 1.2rem;
+    }
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        z-index: 30; 
+        right: 0;
+        top: 0;
+        width: 60vw;
+        height: 100vh;
+        padding: 2em 0em 2em 2em;
+        background-color: hsl(36, 100%, 99%);
+    }
+    .mobile-menu a {
+        color: black;
+        font-size: 2rem;
     }
     main {
         display: grid;
