@@ -155,7 +155,9 @@ article p {
 .attribution a {
 color: hsl(228, 45%, 44%);
 }
-#mobile-menu {
+.mobile-menu {
+    position: fixed;
+    right: 100%;
     display: none;
 }
 @media screen and (max-width: 600px){
@@ -192,7 +194,7 @@ color: hsl(228, 45%, 44%);
     }
     .mobile-menu {
         display: none;
-        position: fixed;
+        /* position: fixed; */
         z-index: 30; 
         right: 0;
         top: 0;
