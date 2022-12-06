@@ -116,32 +116,32 @@ main {
     border-bottom: 0.1em solid hsl(236, 13%, 42%);
     margin: 5em auto;
 }
-article {
+.article {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     max-width: 70.2rem;
     gap: 0.8em;
     margin: 2em auto 1.4em auto ;
 }
-article section {
+.article section {
     display: flex;
 }
-article img {
+.article img {
     height: 6.5em;
     margin-right: 1em;
 }
-article h3 {
+.article h3 {
     color: hsl(236, 13%, 42%);
     margin-bottom: 0.5em;
 }
-article a { 
+.article a { 
     color:  hsl(240, 100%, 5%) ;
     font-weight: 700;
 }
-article a:hover {
+.article a:hover {
     color: hsl(5, 85%, 63%);
 }
-article p {
+.article p {
   color: hsl(236, 13%, 42%);
   font-size: 0.9rem;
   margin-top: 0.5em;
@@ -247,7 +247,7 @@ color: hsl(228, 45%, 44%);
         grid-row: 4; 
         width: auto;       
     }
-    article {
+    .article {
         display: grid;
         grid-template-columns: 1fr;
         margin: auto;
