@@ -22,7 +22,7 @@ body{
     grid-template-columns: 1fr 1fr;
     align-content: center;
     width: 68em;
-    margin: 4em auto 1.4em auto ;
+    margin: 5.5em auto 1.4em auto ;
 }
 .heading nav {
     display: flex;
